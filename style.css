@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .outer-container {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: green;; */
+  }
+  .inner-container {
+    margin-inline: 6rem;
+    margin-block: 2rem;
+    /* background-color: aqua; */
+  }
+  .inner-container header {
+    text-align: center;
+  }
+  .inner-container header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .inner-container header p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.542);
+    margin-top: 1rem;
+  }
+
+  /* card container */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 2rem;
+    place-items: stretch;
+    gap: 1rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.451);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  .card a img {
+    width: 100%;
+    /* height: 50%; */
+  }
+  .card-description {
+    padding: 1rem;
+  }
+  .card-description h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .card-description p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.542);
+    margin-top: 0.7rem;
+  }
+  .author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .author-info .left-section {
+    display: flex;
+    align-items: center;
+  }
+  .author-info .left-section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .author-info .left-section .author-name-date .name {
+    color: rgba(0, 0, 255, 0.475);
+  }
+  .author-name-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  .right-section p {
+    border: 1px solid rgba(0, 0, 0, 0.472);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* image3 */
+  .image3 {
+    height: 180px;
+  }
